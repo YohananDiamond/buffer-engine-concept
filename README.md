@@ -23,3 +23,5 @@ If you feel like contributing to the concepts in the repositories, thank
 you! I'll be happy for receiving new concepts, critics or even just
 organization of the repository via a Github **Issue** or **Pull
 Request**.
+
+Reading the [CONTRIBUTING.md](CONTRIBUTING.md) file is recommended.
