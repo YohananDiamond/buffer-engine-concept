@@ -3,8 +3,8 @@
 **Note**: This is a work in progress and anything is subject to change.
 
 This is the concept of a project I've been working on. It consists on an
-extensible environment that can be used in many different ways, and not
-only for text editing.
+extensible environment inspired by Vim and Emacs that can be used in
+many different ways, and not only for text editing.
 
 Some of the core principles are:
 
@@ -14,6 +14,8 @@ Some of the core principles are:
 
 - It should be portable. The environment should work in any major
   desktop platform (Linux, MacOS, Windows etc.).
+
+The start point is on the [Main Index File](main/index.md).
 
 <!-- Talk about portability in USB somewhere else -->
 
