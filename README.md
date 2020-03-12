@@ -1,21 +1,26 @@
 # Buffer Engine (Concept)
 
-**Note**: This is a work in progress and anything is subject to change.
+> This is an experimental project and anything is subject to change.
 
-This is the concept of a project I've been working on. It consists on an
-extensible environment inspired by Vim and Emacs that can be used in
-many different ways, and not only for text editing.
+This repository is supposed to store concepts about a text-based
+environment similar to Vim, Emacs and others.
 
-Some of the core principles are:
+Some of its goals are:
 
-- (Almost) everything is a module. Modules can be added or removed, and
-  with that the user may decide to replace most core modules in favor of
-  what they prefer.
+- To be modular: (mostly) everything should be a module, and they could
+  be added, replaced, edited or moved - even the most internal ones -.
 
-- It should be portable. The environment should work in any major
-  desktop platform (Linux, MacOS, Windows etc.).
+- To be portable: it should work at least in the current three major
+  desktop platforms: Linux, MacOS and Windows.
 
-The start point is on the [Main Index File](main/index.md).
+- To be fast: runtime and (mostly) startup should not be slow. Only modules that
+  need to be loaded should be so.
+
+One another goal - supported by the modular and fast goals - is to work
+as a framework that can be used to make more text-based applications,
+like git interfaces, to-do list managers etc. without a big overhead.
+
+The starting point is in [this index file](INDEX.md) (still incomplete).
 
 <!-- Talk about portability in USB somewhere else -->
 
@@ -26,4 +31,4 @@ you! I'll be happy for receiving new concepts, critics or even just
 organization of the repository via a Github **Issue** or **Pull
 Request**.
 
-Reading the [CONTRIBUTING.md](CONTRIBUTING.md) file is recommended.
+Reading the [contributing guidelines](CONTRIBUTING.md) file is recommended.
