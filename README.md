@@ -16,13 +16,11 @@ Some of its goals are:
 - To be fast: runtime and (mostly) startup should not be slow. Only modules that
   need to be loaded should be so.
 
-One another goal - supported by the modular and fast goals - is to work
-as a framework that can be used to make more text-based applications,
-like git interfaces, to-do list managers etc. without a big overhead.
+- To be versatile: it should work as a relatively lightweight framework
+  that can be used to make more text-based applications, like git
+  interfaces, to-do list managers etc. without a big overhead.
 
 The starting point is in [this index file](INDEX.md) (still incomplete).
-
-<!-- Talk about portability in USB somewhere else -->
 
 ## Contributing
 
